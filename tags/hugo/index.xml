@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hugo on 染竹君的个人博客</title>
-    <link>https://dyedbamboo.github.io/categories/hugo/</link>
+    <link>https://dyedbamboo.github.io/tags/hugo/</link>
     <description>Recent content in Hugo on 染竹君的个人博客</description>
     <image>
       <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
       <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 07 Jun 2022 19:42:19 +0800</lastBuildDate><atom:link href="https://dyedbamboo.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jun 2022 19:42:19 +0800</lastBuildDate><atom:link href="https://dyedbamboo.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo</title>
       <link>https://dyedbamboo.github.io/posts/hugo/hugo/</link>
@@ -19,15 +19,6 @@
       <description>  创建一篇新的博客
 1  hugo new post/new_blog.md     git远程推送
 1 2 3 4 5 6  cd public git init git commit -m &amp;#34;first commit&amp;#34; git branch -M main git remote add origin git@github.com:DyedBamboo/DyedBamboo.github.io.git git push -u origin main     </description>
-    </item>
-    
-    <item>
-      <title>公式测试</title>
-      <link>https://dyedbamboo.github.io/posts/post/</link>
-      <pubDate>Wed, 25 May 2022 10:26:14 +0800</pubDate>
-      
-      <guid>https://dyedbamboo.github.io/posts/post/</guid>
-      <description>latex公式测试</description>
     </item>
     
   </channel>
