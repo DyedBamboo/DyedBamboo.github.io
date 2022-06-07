@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on 染竹君的个人博客</title>
+    <link>https://dyedbamboo.github.io/tags/</link>
+    <description>Recent content in Tags on 染竹君的个人博客</description>
+    <image>
+      <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
+      <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 07 Jun 2022 18:58:20 +0800</lastBuildDate><atom:link href="https://dyedbamboo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown</title>
+      <link>https://dyedbamboo.github.io/tags/markdown/</link>
+      <pubDate>Tue, 07 Jun 2022 18:58:20 +0800</pubDate>
+      
+      <guid>https://dyedbamboo.github.io/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>latex</title>
+      <link>https://dyedbamboo.github.io/tags/latex/</link>
+      <pubDate>Wed, 25 May 2022 10:26:14 +0800</pubDate>
+      
+      <guid>https://dyedbamboo.github.io/tags/latex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mathjax</title>
+      <link>https://dyedbamboo.github.io/tags/mathjax/</link>
+      <pubDate>Wed, 25 May 2022 10:26:14 +0800</pubDate>
+      
+      <guid>https://dyedbamboo.github.io/tags/mathjax/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

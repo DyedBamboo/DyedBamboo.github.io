@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Markdown on 染竹君的个人博客</title>
+    <link>https://dyedbamboo.github.io/categories/markdown/</link>
+    <description>Recent content in Markdown on 染竹君的个人博客</description>
+    <image>
+      <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
+      <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 07 Jun 2022 18:58:20 +0800</lastBuildDate><atom:link href="https://dyedbamboo.github.io/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown</title>
+      <link>https://dyedbamboo.github.io/posts/markdown/markdown/</link>
+      <pubDate>Tue, 07 Jun 2022 18:58:20 +0800</pubDate>
+      
+      <guid>https://dyedbamboo.github.io/posts/markdown/markdown/</guid>
+      <description>Markdown For Typora Overview Markdown is created by Daring Fireball; the original guideline is here. Its syntax, however, varies between different parsers or editors. Typora is using GitHub Flavored Markdown.
+[toc]
+Block Elements Paragraph and line breaks A paragraph is simply one or more consecutive lines of text. In markdown source code, paragraphs are separated by two or more blank lines. In Typora, you only need one blank line (press Return once) to create a new paragraph.</description>
+    </item>
+    
+  </channel>
+</rss>

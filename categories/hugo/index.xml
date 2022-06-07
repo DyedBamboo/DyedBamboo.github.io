@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hugo on 染竹君的个人博客</title>
+    <link>https://dyedbamboo.github.io/categories/hugo/</link>
+    <description>Recent content in Hugo on 染竹君的个人博客</description>
+    <image>
+      <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
+      <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 25 May 2022 10:26:14 +0800</lastBuildDate><atom:link href="https://dyedbamboo.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>公式测试</title>
+      <link>https://dyedbamboo.github.io/posts/post/</link>
+      <pubDate>Wed, 25 May 2022 10:26:14 +0800</pubDate>
+      
+      <guid>https://dyedbamboo.github.io/posts/post/</guid>
+      <description>latex公式测试</description>
+    </item>
+    
+  </channel>
+</rss>

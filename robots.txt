@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://dyedbamboo.github.io/sitemap.xml
