@@ -5,11 +5,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Hugo | 染竹君的个人博客</title>
+<title>Hugo常用命令 | 染竹君的个人博客</title>
 <meta name="keywords" content="Hugo">
-<meta name="description" content="  创建一篇新的博客
-1  hugo new post/new_blog.md     git远程推送
-1 2 3 4 5 6  cd public git init git commit -m &#34;first commit&#34; git branch -M main git remote add origin git@github.com:DyedBamboo/DyedBamboo.github.io.git git push -u origin main     ">
+<meta name="description" content="初始化一个站点
+1  hugo new site /path/site-name/     创建一篇新的博客
+1  hugo new post/new_blog.md     编译生成静态文件到public目录
+1  hugo     编译生成静态文件并启动web服务，默认1313端口
+1  hugo server     常用参数介绍
+1 2 3 4 5 6 7 8 9 10 11  --bind=&#34;127.0.0.1&#34; 服务监听IP地址 -p, --port=1313 服务监听端口 -w, --watch[=true] 监听站点目录，发现文件变更自动编译 -D, --buildDrafts 包括被标记为draft的文章 -E, --buildExpired 包括已过期的文章 -F, --buildFuture 包括将在未来发布的文章 -b, --baseURL=&#34;playxy.">
 <meta name="author" content="RanZhuJun">
 <link rel="canonical" href="https://dyedbamboo.github.io/posts/hugo/hugo/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.4b7d810bc0c98044b1c7a72962d55d7f125a07c3ed5cf31e670c3fdecc98b341.css" integrity="sha256-S32BC8DJgESxx6cpYtVdfxJaB8PtXPMeZww/3syYs0E=" rel="preload stylesheet" as="style">
@@ -79,10 +82,13 @@ if (!doNotTrack) {
 	gtag('config', 'G-C6GDZ56F4S', { 'anonymize_ip': false });
 }
 </script>
-<meta property="og:title" content="Hugo" />
-<meta property="og:description" content="  创建一篇新的博客
-1  hugo new post/new_blog.md     git远程推送
-1 2 3 4 5 6  cd public git init git commit -m &#34;first commit&#34; git branch -M main git remote add origin git@github.com:DyedBamboo/DyedBamboo.github.io.git git push -u origin main     " />
+<meta property="og:title" content="Hugo常用命令" />
+<meta property="og:description" content="初始化一个站点
+1  hugo new site /path/site-name/     创建一篇新的博客
+1  hugo new post/new_blog.md     编译生成静态文件到public目录
+1  hugo     编译生成静态文件并启动web服务，默认1313端口
+1  hugo server     常用参数介绍
+1 2 3 4 5 6 7 8 9 10 11  --bind=&#34;127.0.0.1&#34; 服务监听IP地址 -p, --port=1313 服务监听端口 -w, --watch[=true] 监听站点目录，发现文件变更自动编译 -D, --buildDrafts 包括被标记为draft的文章 -E, --buildExpired 包括已过期的文章 -F, --buildFuture 包括将在未来发布的文章 -b, --baseURL=&#34;playxy." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://dyedbamboo.github.io/posts/hugo/hugo/" /><meta property="og:image" content="https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-06-07T19:42:19&#43;08:00" />
@@ -91,10 +97,13 @@ if (!doNotTrack) {
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png"/>
 
-<meta name="twitter:title" content="Hugo"/>
-<meta name="twitter:description" content="  创建一篇新的博客
-1  hugo new post/new_blog.md     git远程推送
-1 2 3 4 5 6  cd public git init git commit -m &#34;first commit&#34; git branch -M main git remote add origin git@github.com:DyedBamboo/DyedBamboo.github.io.git git push -u origin main     "/>
+<meta name="twitter:title" content="Hugo常用命令"/>
+<meta name="twitter:description" content="初始化一个站点
+1  hugo new site /path/site-name/     创建一篇新的博客
+1  hugo new post/new_blog.md     编译生成静态文件到public目录
+1  hugo     编译生成静态文件并启动web服务，默认1313端口
+1  hugo server     常用参数介绍
+1 2 3 4 5 6 7 8 9 10 11  --bind=&#34;127.0.0.1&#34; 服务监听IP地址 -p, --port=1313 服务监听端口 -w, --watch[=true] 监听站点目录，发现文件变更自动编译 -D, --buildDrafts 包括被标记为draft的文章 -E, --buildExpired 包括已过期的文章 -F, --buildFuture 包括将在未来发布的文章 -b, --baseURL=&#34;playxy."/>
 
 
 <script type="application/ld+json">
@@ -111,7 +120,7 @@ if (!doNotTrack) {
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "Hugo",
+      "name": "Hugo常用命令",
       "item": "https://dyedbamboo.github.io/posts/hugo/hugo/"
     }
   ]
@@ -121,14 +130,14 @@ if (!doNotTrack) {
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Hugo",
-  "name": "Hugo",
-  "description": "  创建一篇新的博客\n1  hugo new post/new_blog.md     git远程推送\n1 2 3 4 5 6  cd public git init git commit -m \u0026#34;first commit\u0026#34; git branch -M main git remote add origin git@github.com:DyedBamboo/DyedBamboo.github.io.git git push -u origin main     ",
+  "headline": "Hugo常用命令",
+  "name": "Hugo常用命令",
+  "description": "初始化一个站点\n1  hugo new site /path/site-name/     创建一篇新的博客\n1  hugo new post/new_blog.md     编译生成静态文件到public目录\n1  hugo     编译生成静态文件并启动web服务，默认1313端口\n1  hugo server     常用参数介绍\n1 2 3 4 5 6 7 8 9 10 11  --bind=\u0026#34;127.0.0.1\u0026#34; 服务监听IP地址 -p, --port=1313 服务监听端口 -w, --watch[=true] 监听站点目录，发现文件变更自动编译 -D, --buildDrafts 包括被标记为draft的文章 -E, --buildExpired 包括已过期的文章 -F, --buildFuture 包括将在未来发布的文章 -b, --baseURL=\u0026#34;playxy.",
   "keywords": [
     "Hugo"
   ],
-  "articleBody": "  创建一篇新的博客\n1  hugo new post/new_blog.md     git远程推送\n1 2 3 4 5 6  cd public git init git commit -m \"first commit\" git branch -M main git remote add origin git@github.com:DyedBamboo/DyedBamboo.github.io.git git push -u origin main     ",
-  "wordCount" : "35",
+  "articleBody": "  初始化一个站点\n1  hugo new site /path/site-name/     创建一篇新的博客\n1  hugo new post/new_blog.md     编译生成静态文件到public目录\n1  hugo     编译生成静态文件并启动web服务，默认1313端口\n1  hugo server     常用参数介绍\n1 2 3 4 5 6 7 8 9 10 11  --bind=\"127.0.0.1\" 服务监听IP地址 -p, --port=1313 服务监听端口 -w, --watch[=true] 监听站点目录，发现文件变更自动编译 -D, --buildDrafts 包括被标记为draft的文章 -E, --buildExpired 包括已过期的文章 -F, --buildFuture 包括将在未来发布的文章 -b, --baseURL=\"playxy.cn\" 服务监听域名 --log[=false]: 开启日志 --logFile=\"/var/log/hugo.log\" log输出路径 -t, --theme=\"\" 指定主题 -v, --verbose[=false] 输出详细信息     git远程推送\n1 2 3 4 5 6  cd public git init git commit -m \"first commit\" git branch -M main git remote add origin git@github.com:DyedBamboo/DyedBamboo.github.io.git git push -u origin main     ",
+  "wordCount" : "90",
   "inLanguage": "cn",
   "datePublished": "2022-06-07T19:42:19+08:00",
   "dateModified": "2022-06-07T19:42:19+08:00",
@@ -225,13 +234,24 @@ if (!doNotTrack) {
   <header class="post-header">
     <div class="breadcrumbs"><a href="https://dyedbamboo.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://dyedbamboo.github.io/posts/">Posts</a></div>
     <h1 class="post-title">
-      Hugo
+      Hugo常用命令
     </h1>
     <div class="post-meta"><span title='2022-06-07 19:42:19 +0800 CST'>June 7, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;RanZhuJun
 </div>
   </header> 
 
   <div class="post-content"><ul>
+<li>
+<p>初始化一个站点</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo new site /path/site-name/
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
 <li>
 <p>创建一篇新的博客</p>
 <div class="highlight"><div class="chroma">
@@ -240,6 +260,59 @@ if (!doNotTrack) {
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">hugo new post/new_blog.md
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>编译生成静态文件到public目录</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>编译生成静态文件并启动web服务，默认1313端口</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo server
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>常用参数介绍</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">--bind=&#34;127.0.0.1&#34;    服务监听IP地址
+</span></span><span class="line"><span class="cl">-p, --port=1313       服务监听端口
+</span></span><span class="line"><span class="cl">-w, --watch[=true]    监听站点目录，发现文件变更自动编译
+</span></span><span class="line"><span class="cl">-D, --buildDrafts     包括被标记为draft的文章
+</span></span><span class="line"><span class="cl">-E, --buildExpired    包括已过期的文章
+</span></span><span class="line"><span class="cl">-F, --buildFuture     包括将在未来发布的文章
+</span></span><span class="line"><span class="cl">-b, --baseURL=&#34;playxy.cn&#34;  服务监听域名
+</span></span><span class="line"><span class="cl">--log[=false]:             开启日志
+</span></span><span class="line"><span class="cl">--logFile=&#34;/var/log/hugo.log&#34; log输出路径
+</span></span><span class="line"><span class="cl">-t, --theme=&#34;&#34;          指定主题
+</span></span><span class="line"><span class="cl">-v, --verbose[=false]   输出详细信息
 </span></span></code></pre></td></tr></table>
 </div>
 </div></li>

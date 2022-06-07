@@ -165,16 +165,19 @@ if (!doNotTrack) {
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>Hugo
+    <h2>Hugo常用命令
     </h2>
   </header>
   <section class="entry-content">
-    <p>  创建一篇新的博客
-1  hugo new post/new_blog.md     git远程推送
-1 2 3 4 5 6  cd public git init git commit -m &#34;first commit&#34; git branch -M main git remote add origin git@github.com:DyedBamboo/DyedBamboo.github.io.git git push -u origin main     </p>
+    <p>初始化一个站点
+1  hugo new site /path/site-name/     创建一篇新的博客
+1  hugo new post/new_blog.md     编译生成静态文件到public目录
+1  hugo     编译生成静态文件并启动web服务，默认1313端口
+1  hugo server     常用参数介绍
+1 2 3 4 5 6 7 8 9 10 11  --bind=&#34;127.0.0.1&#34; 服务监听IP地址 -p, --port=1313 服务监听端口 -w, --watch[=true] 监听站点目录，发现文件变更自动编译 -D, --buildDrafts 包括被标记为draft的文章 -E, --buildExpired 包括已过期的文章 -F, --buildFuture 包括将在未来发布的文章 -b, --baseURL=&#34;playxy....</p>
   </section>
   <footer class="entry-footer"><span title='2022-06-07 19:42:19 +0800 CST'>June 7, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;RanZhuJun</footer>
-  <a class="entry-link" aria-label="post link to Hugo" href="https://dyedbamboo.github.io/posts/hugo/hugo/"></a>
+  <a class="entry-link" aria-label="post link to Hugo常用命令" href="https://dyedbamboo.github.io/posts/hugo/hugo/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 

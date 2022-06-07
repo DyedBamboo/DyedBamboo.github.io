@@ -11,14 +11,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 07 Jun 2022 19:42:19 +0800</lastBuildDate><atom:link href="https://dyedbamboo.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hugo</title>
+      <title>Hugo常用命令</title>
       <link>https://dyedbamboo.github.io/posts/hugo/hugo/</link>
       <pubDate>Tue, 07 Jun 2022 19:42:19 +0800</pubDate>
       
       <guid>https://dyedbamboo.github.io/posts/hugo/hugo/</guid>
-      <description>  创建一篇新的博客
-1  hugo new post/new_blog.md     git远程推送
-1 2 3 4 5 6  cd public git init git commit -m &amp;#34;first commit&amp;#34; git branch -M main git remote add origin git@github.com:DyedBamboo/DyedBamboo.github.io.git git push -u origin main     </description>
+      <description>初始化一个站点
+1  hugo new site /path/site-name/     创建一篇新的博客
+1  hugo new post/new_blog.md     编译生成静态文件到public目录
+1  hugo     编译生成静态文件并启动web服务，默认1313端口
+1  hugo server     常用参数介绍
+1 2 3 4 5 6 7 8 9 10 11  --bind=&amp;#34;127.0.0.1&amp;#34; 服务监听IP地址 -p, --port=1313 服务监听端口 -w, --watch[=true] 监听站点目录，发现文件变更自动编译 -D, --buildDrafts 包括被标记为draft的文章 -E, --buildExpired 包括已过期的文章 -F, --buildFuture 包括将在未来发布的文章 -b, --baseURL=&amp;#34;playxy.</description>
     </item>
     
     <item>
