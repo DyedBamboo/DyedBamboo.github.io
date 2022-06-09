@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>学习 on 染竹君的个人博客</title>
-    <link>https://dyedbamboo.github.io/categories/%E5%AD%A6%E4%B9%A0/</link>
-    <description>Recent content in 学习 on 染竹君的个人博客</description>
+    <title>Typora快捷键 on 染竹君的个人博客</title>
+    <link>https://dyedbamboo.github.io/tags/typora%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
+    <description>Recent content in Typora快捷键 on 染竹君的个人博客</description>
     <image>
       <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
       <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 09 Jun 2022 21:59:05 +0800</lastBuildDate><atom:link href="https://dyedbamboo.github.io/categories/%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Jun 2022 21:59:05 +0800</lastBuildDate><atom:link href="https://dyedbamboo.github.io/tags/typora%E5%BF%AB%E6%8D%B7%E9%94%AE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Typora快捷键</title>
       <link>https://dyedbamboo.github.io/posts/typora/</link>
@@ -17,26 +17,6 @@
       
       <guid>https://dyedbamboo.github.io/posts/typora/</guid>
       <description>Typora 常用快捷键   文件操作  Ctrl + N ：新建文件 Ctrl + shift + N ：新建窗口 Ctrl + O ：打开 Ctrl + P ： 快速打开（快速打开之前编辑过的历史文件） Ctrl + S ：保存 Ctrl + shift + S：另存为 Typora 偏好设置：Ctrl + ; Ctrl + W ：关闭    编辑操作  Ctrl + Z : 撤销 Ctrl + Y ：重做 Ctrl + X : 剪切 Ctrl + C : 复制 Ctrl + V：粘贴 Ctrl + shift +C ：复制为MarkDown格式 Ctrl + shift + V：粘贴为纯文本格式（去除文本原本格式，很好用） Ctrl +A：全选 Ctrl + L：选中当前行 Ctrl + E：选中当前格式文本 Ctrl + D：选中当前词 Ctrl + Home：跳转到开头 Ctrl + End：跳转到末尾 Ctrl + J：跳转到所选内容 Ctrl +shift+D：删除当前词    查找和替换  Ctrl + F：查找 F3：查找下一个 shift + F3：查找上一个 Ctrl + H：替换    MarkDown语法快捷键  Ctrl + 数字键1~6：对应一到六级标题 Ctrl +数字键0：段落 Ctrl + =：提升标题等级 Ctrl + -：降低标题等级 Ctrl + T ：插入表格 Ctrl +shift+K：插入代码块 Ctrl +shift+M：插入公式 Ctrl +shift+I：插入图片 Ctrl +shift+Q：引用 Ctrl +shift+[：有序列表 Ctrl +shift+]：无序列表 Ctrl + [：列表减少缩进 Ctrl +]：列表增加缩进    格式  Ctrl +B：加粗 Ctrl + I：斜体 Ctrl + U：下划线 Alt + shift + 5 : 删除线 Ctrl + K ：超链接 Ctrl + \：清除样式    视图  Ctrl +shift+L：显示/隐藏侧边栏 Ctrl +shift+1：大纲 Ctrl +shift+2：文档列表 Ctrl +shift+3：文件树 Ctrl +shift+F：搜索 Ctrl +/：源代码模式 F11：全屏 Ctrl +shift+9：实际大小 Ctrl +shift+ -：缩小 Ctrl +shift+ =：放大 Ctrl + Tab：应用内部切换窗口 shift+F12：开发者工具    </description>
-    </item>
-    
-    <item>
-      <title>可见光与红外图像融合指标批量计算</title>
-      <link>https://dyedbamboo.github.io/posts/study/img_fus/</link>
-      <pubDate>Tue, 07 Jun 2022 20:15:50 +0800</pubDate>
-      
-      <guid>https://dyedbamboo.github.io/posts/study/img_fus/</guid>
-      <description>可见光与红外图像融合 写了一个批量计算图像融合指标的脚本，主要用到了scikit-image模块，点击可查看官方文档
-安装scikit-image 建议建立一个虚拟Python环境运行，虚拟环境的意义，就如同虚拟机一样，它可以实现不同环境中Python依赖包相互独立，互不干扰。
-创建虚拟环境的步骤：
-  第一步：安装Virtualenv
-1  pip3 install virtualenv -i https://pypi.python.org/simple/     第二步：cd 到存放虚拟环境的目录地址，执行以下代码创建虚拟环境
-1 2 3 4  virtualenv python3_env # 你也可以指定版本 virtualenv -p /usr/bin/python2.7 python2_env virtualenv -p /usr/bin/python3.8 python3_env     第三步：激活虚拟环境
-ubuntu执行以下命令：
-1  source python3_env/bin/activate   Windows执行以下命令：
-1  .\Scripts\activate.bat     第四步：退出虚拟环境
-ubuntu执行：
-1  deactivate   Windows执行：
-1  .\Scripts\deactivate.bat     接下来进入正文，安装scikit-image，激活虚拟环境后，pip安装</description>
     </item>
     
   </channel>
