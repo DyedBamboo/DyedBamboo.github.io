@@ -1,14 +1,93 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">	
-<url>
-<loc>http://dyedbamboo.github.io</loc>
-<priority>0.5</priority>
-<lastmod>2022-06-10</lastmod>
-<changefreq>weekly</changefreq>
-</url>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://dyedbamboo.github.io/categories/</loc>
+    <lastmod>2022-06-09T21:59:05+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dyedbamboo.github.io/posts/</loc>
+    <lastmod>2022-06-09T21:59:05+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dyedbamboo.github.io/tags/</loc>
+    <lastmod>2022-06-09T21:59:05+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dyedbamboo.github.io/tags/typora%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
+    <lastmod>2022-06-09T21:59:05+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dyedbamboo.github.io/posts/typora/</loc>
+    <lastmod>2022-06-09T21:59:05+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dyedbamboo.github.io/categories/%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2022-06-09T21:59:05+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dyedbamboo.github.io/</loc>
+    <lastmod>2022-06-09T21:59:05+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dyedbamboo.github.io/posts/study/img_fus/</loc>
+    <lastmod>2022-06-07T20:15:50+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dyedbamboo.github.io/tags/%E5%9B%BE%E5%83%8F%E8%9E%8D%E5%90%88/</loc>
+    <lastmod>2022-06-07T20:15:50+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dyedbamboo.github.io/tags/hugo/</loc>
+    <lastmod>2022-06-07T19:42:19+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dyedbamboo.github.io/categories/hugo/</loc>
+    <lastmod>2022-06-07T19:42:19+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dyedbamboo.github.io/posts/hugo/hugo/</loc>
+    <lastmod>2022-06-07T19:42:19+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dyedbamboo.github.io/tags/markdown/</loc>
+    <lastmod>2022-06-07T18:58:20+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dyedbamboo.github.io/categories/markdown/</loc>
+    <lastmod>2022-06-07T18:58:20+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dyedbamboo.github.io/posts/markdown/markdown/</loc>
+    <lastmod>2022-06-07T18:58:20+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dyedbamboo.github.io/tags/latex/</loc>
+    <lastmod>2022-05-25T10:26:14+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dyedbamboo.github.io/categories/latex/</loc>
+    <lastmod>2022-05-25T10:26:14+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dyedbamboo.github.io/tags/mathjax/</loc>
+    <lastmod>2022-05-25T10:26:14+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dyedbamboo.github.io/posts/post/</loc>
+    <lastmod>2022-05-25T10:26:14+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dyedbamboo.github.io/posts/blog/</loc>
+    <lastmod>2022-05-25T10:14:41+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://dyedbamboo.github.io/archives/</loc>
+  </url>
+  <url>
+    <loc>https://dyedbamboo.github.io/search/</loc>
+  </url>
+  <url>
+    <loc>https://dyedbamboo.github.io/series/</loc>
+  </url>
 </urlset>
-
