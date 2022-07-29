@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on 染竹君的个人博客</title>
+    <link>https://dyedbamboo.github.io/posts/</link>
+    <description>Recent content in Posts on 染竹君的个人博客</description>
+    <image>
+      <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
+      <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 29 Jul 2022 19:24:02 +0800</lastBuildDate><atom:link href="https://dyedbamboo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IPOPT非线性解算器MATLAB使用</title>
+      <link>https://dyedbamboo.github.io/posts/ipopt_use/</link>
+      <pubDate>Fri, 29 Jul 2022 19:24:02 +0800</pubDate>
+      
+      <guid>https://dyedbamboo.github.io/posts/ipopt_use/</guid>
+      <description>调用IPOPT约束的非线性解算器。 基本的函数调用  [x, info] = IPOPT(x0,funcs,options)
+ 第一个输入是一个矩阵或矩阵的单元数组。它声明求解器的起点。
+回调函数 第二个输入必须是包含各种MATLAB例程函数句柄的结构。有关MATLAB中使用函数和函数句柄的更多信息，请在MATLAB提示符中输入HELP function和HELP FUNCTION_HANDLE。
+ function f = objective (x) (必须)
+计算当前点的目标函数。例如，Hock &amp;amp; Schittkowski (H&amp;amp;S)测试问题#71(包含4个优化变量)的目标函数的定义将是
+1 2  functionf =objective (x)f = x(1)*x(4)*sum(x(1:3)) + x(3);     funcs.gradient (required) （必须）
+计算目标在当前点的梯度。它接受一个输入，当前迭代x。对于H&amp;amp;S测试问题#71，梯度回调函数的定义是
+1 2 3 4 5  functiong =gradient (x)g = [ x(1)*x(4) + x(4)*sum(x(1:3)) x(1)*x(4) x(1)*x(4) + 1 x(1)*sum(x(1:3)) ];     funcs.constraints (可选)
+只有当变量有约束时才需要此函数。它在当前点计算约束函数。它接受一个输入x。返回值是一个长度等于约束数量的向量(它必须与options.cl和options.cu的长度相同)。对于H&amp;amp;S测试问题#71，回调函数定义为
+1 2  functionc =constraints (x)c = [ prod(x); sum(x.</description>
+    </item>
+    
+    <item>
+      <title>Typora快捷键</title>
+      <link>https://dyedbamboo.github.io/posts/typora/</link>
+      <pubDate>Thu, 09 Jun 2022 21:59:05 +0800</pubDate>
+      
+      <guid>https://dyedbamboo.github.io/posts/typora/</guid>
+      <description>Typora 常用快捷键   文件操作  Ctrl + N ：新建文件 Ctrl + shift + N ：新建窗口 Ctrl + O ：打开 Ctrl + P ： 快速打开（快速打开之前编辑过的历史文件） Ctrl + S ：保存 Ctrl + shift + S：另存为 Typora 偏好设置：Ctrl + ; Ctrl + W ：关闭    编辑操作  Ctrl + Z : 撤销 Ctrl + Y ：重做 Ctrl + X : 剪切 Ctrl + C : 复制 Ctrl + V：粘贴 Ctrl + shift +C ：复制为MarkDown格式 Ctrl + shift + V：粘贴为纯文本格式（去除文本原本格式，很好用） Ctrl +A：全选 Ctrl + L：选中当前行 Ctrl + E：选中当前格式文本 Ctrl + D：选中当前词 Ctrl + Home：跳转到开头 Ctrl + End：跳转到末尾 Ctrl + J：跳转到所选内容 Ctrl +shift+D：删除当前词    查找和替换  Ctrl + F：查找 F3：查找下一个 shift + F3：查找上一个 Ctrl + H：替换    MarkDown语法快捷键  Ctrl + 数字键1~6：对应一到六级标题 Ctrl +数字键0：段落 Ctrl + =：提升标题等级 Ctrl + -：降低标题等级 Ctrl + T ：插入表格 Ctrl +shift+K：插入代码块 Ctrl +shift+M：插入公式 Ctrl +shift+I：插入图片 Ctrl +shift+Q：引用 Ctrl +shift+[：有序列表 Ctrl +shift+]：无序列表 Ctrl + [：列表减少缩进 Ctrl +]：列表增加缩进    格式  Ctrl +B：加粗 Ctrl + I：斜体 Ctrl + U：下划线 Alt + shift + 5 : 删除线 Ctrl + K ：超链接 Ctrl + \：清除样式    视图  Ctrl +shift+L：显示/隐藏侧边栏 Ctrl +shift+1：大纲 Ctrl +shift+2：文档列表 Ctrl +shift+3：文件树 Ctrl +shift+F：搜索 Ctrl +/：源代码模式 F11：全屏 Ctrl +shift+9：实际大小 Ctrl +shift+ -：缩小 Ctrl +shift+ =：放大 Ctrl + Tab：应用内部切换窗口 shift+F12：开发者工具    </description>
+    </item>
+    
+    <item>
+      <title>可见光与红外图像融合指标批量计算</title>
+      <link>https://dyedbamboo.github.io/posts/study/img_fus/</link>
+      <pubDate>Tue, 07 Jun 2022 20:15:50 +0800</pubDate>
+      
+      <guid>https://dyedbamboo.github.io/posts/study/img_fus/</guid>
+      <description>可见光与红外图像融合 写了一个批量计算图像融合指标的脚本，主要用到了scikit-image模块，点击可查看官方文档
+安装scikit-image 建议建立一个虚拟Python环境运行，虚拟环境的意义，就如同虚拟机一样，它可以实现不同环境中Python依赖包相互独立，互不干扰。
+创建虚拟环境的步骤：
+  第一步：安装Virtualenv
+1  pip3 install virtualenv -i https://pypi.python.org/simple/     第二步：cd 到存放虚拟环境的目录地址，执行以下代码创建虚拟环境
+1 2 3 4  virtualenv python3_env # 你也可以指定版本 virtualenv -p /usr/bin/python2.7 python2_env virtualenv -p /usr/bin/python3.8 python3_env     第三步：激活虚拟环境
+ubuntu执行以下命令：
+1  source python3_env/bin/activate   Windows执行以下命令：
+1  .\Scripts\activate.bat     第四步：退出虚拟环境
+ubuntu执行：
+1  deactivate   Windows执行：
+1  .\Scripts\deactivate.bat     接下来进入正文，安装scikit-image，激活虚拟环境后，pip安装</description>
+    </item>
+    
+    <item>
+      <title>Hugo常用命令</title>
+      <link>https://dyedbamboo.github.io/posts/hugo/hugo/</link>
+      <pubDate>Tue, 07 Jun 2022 19:42:19 +0800</pubDate>
+      
+      <guid>https://dyedbamboo.github.io/posts/hugo/hugo/</guid>
+      <description>初始化一个站点
+1  hugo new site /path/site-name/     创建一篇新的博客
+1  hugo new post/new_blog.md     编译生成静态文件到public目录
+1  hugo     编译生成静态文件并启动web服务，默认1313端口
+1  hugo server     常用参数介绍
+1 2 3 4 5 6 7 8 9 10 11  --bind=&amp;#34;127.0.0.1&amp;#34; 服务监听IP地址 -p, --port=1313 服务监听端口 -w, --watch[=true] 监听站点目录，发现文件变更自动编译 -D, --buildDrafts 包括被标记为draft的文章 -E, --buildExpired 包括已过期的文章 -F, --buildFuture 包括将在未来发布的文章 -b, --baseURL=&amp;#34;playxy.</description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://dyedbamboo.github.io/posts/markdown/markdown/</link>
+      <pubDate>Tue, 07 Jun 2022 18:58:20 +0800</pubDate>
+      
+      <guid>https://dyedbamboo.github.io/posts/markdown/markdown/</guid>
+      <description>Markdown For Typora Overview Markdown is created by Daring Fireball; the original guideline is here. Its syntax, however, varies between different parsers or editors. Typora is using GitHub Flavored Markdown.
+[toc]
+Block Elements Paragraph and line breaks A paragraph is simply one or more consecutive lines of text. In markdown source code, paragraphs are separated by two or more blank lines. In Typora, you only need one blank line (press Return once) to create a new paragraph.</description>
+    </item>
+    
+    <item>
+      <title>公式测试</title>
+      <link>https://dyedbamboo.github.io/posts/post/</link>
+      <pubDate>Wed, 25 May 2022 10:26:14 +0800</pubDate>
+      
+      <guid>https://dyedbamboo.github.io/posts/post/</guid>
+      <description>latex公式测试</description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://dyedbamboo.github.io/posts/blog/</link>
+      <pubDate>Wed, 25 May 2022 10:14:41 +0800</pubDate>
+      
+      <guid>https://dyedbamboo.github.io/posts/blog/</guid>
+      <description>我的第一篇博客 随便写点东西
+静夜思
+1 2 3 4 5 6 7  #include &amp;lt;iostream&amp;gt; using namespace std; int main(void){ cout &amp;lt;&amp;lt; &amp;#34;hello world&amp;#34;&amp;lt;&amp;lt;endl; }   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://dyedbamboo.github.io/posts/study/img_fus/ipopt%E8%AF%B4%E6%98%8E/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dyedbamboo.github.io/posts/study/img_fus/ipopt%E8%AF%B4%E6%98%8E/</guid>
+      <description>调用IPOPT约束的非线性解算器。 基本的函数调用  [x, info] = IPOPT(x0,funcs,options)
+ 第一个输入是一个矩阵或矩阵的单元数组。它声明求解器的起点。
+回调函数 第二个输入必须是包含各种MATLAB例程函数句柄的结构。有关MATLAB中使用函数和函数句柄的更多信息，请在MATLAB提示符中输入HELP function和HELP FUNCTION_HANDLE。
+ function f = objective (x) (必须)
+计算当前点的目标函数。例如，Hock &amp;amp; Schittkowski (H&amp;amp;S)测试问题#71(包含4个优化变量)的目标函数的定义将是
+1 2  functionf =objective (x)f = x(1)*x(4)*sum(x(1:3)) + x(3);     funcs.gradient (required) （必须）
+计算目标在当前点的梯度。它接受一个输入，当前迭代x。对于H&amp;amp;S测试问题#71，梯度回调函数的定义是
+1 2 3 4 5  functiong =gradient (x)g = [ x(1)*x(4) + x(4)*sum(x(1:3)) x(1)*x(4) x(1)*x(4) + 1 x(1)*sum(x(1:3)) ];     funcs.constraints (可选)
+只有当变量有约束时才需要此函数。它在当前点计算约束函数。它接受一个输入x。返回值是一个长度等于约束数量的向量(它必须与options.cl和options.cu的长度相同)。对于H&amp;amp;S测试问题#71，回调函数定义为
+1 2  functionc =constraints (x)c = [ prod(x); sum(x.</description>
+    </item>
+    
+  </channel>
+</rss>
