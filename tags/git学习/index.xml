@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>git学习 on 染竹君的个人博客</title>
+    <link>https://dyedbamboo.github.io/tags/git%E5%AD%A6%E4%B9%A0/</link>
+    <description>Recent content in git学习 on 染竹君的个人博客</description>
+    <image>
+      <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
+      <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 29 Jul 2022 20:32:48 +0800</lastBuildDate><atom:link href="https://dyedbamboo.github.io/tags/git%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git学习</title>
+      <link>https://dyedbamboo.github.io/posts/git_learning/</link>
+      <pubDate>Fri, 29 Jul 2022 20:32:48 +0800</pubDate>
+      
+      <guid>https://dyedbamboo.github.io/posts/git_learning/</guid>
+      <description>环境  Windows 10 git bash  git配置 1 2 3 4 5 6 7 8  # 查询git版本 git --version # 查看当前电脑的git用户配置 git config --list # 设置git全局用户名 git config --global user.name &amp;#34;DyedBamboo&amp;#34; # 配置邮箱 git config --global user.email &amp;#34;xxxxxxx@qq.com&amp;#34;   实例操作 本地仓库操作 随便找个位置新建文件夹，命名GitLearing，进入GitLearning右键&amp;quot;Git Bash Here&amp;quot;
+把这个文件夹作为工作区，就可以在这个文件夹下放自己的代码了
+例如我这里新建了两个文件：helloworld.cpp,helloworld.py
+运行 git status查看当前工作区状态，显示有两个文件helloworld.cpp和helloworld.py未提交到缓存区。然后运行git add .把当前目录下的所有文件添加到缓存区
+接着运行git commit -m &amp;quot;添加了Cpp和Python的HelloWord&amp;quot;提交到仓库
+更改代码文件内容后重新提交git add ., git commit -m &amp;quot;修改了两个文件&amp;quot;,然后运行git log查看提交历史</description>
+    </item>
+    
+  </channel>
+</rss>
